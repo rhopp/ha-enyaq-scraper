@@ -12,6 +12,7 @@ panel_title: Enyaq
 panel_icon: mdi:car-electric
 startup: services
 boot: auto
+init: false
 watchdog: http://[HOST]:[PORT:8000]/health
 options:
   scrape_time: "04:00"
