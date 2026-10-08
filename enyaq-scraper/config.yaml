@@ -1,0 +1,23 @@
+name: Enyaq Scraper
+version: "1.0.0"
+slug: enyaq_scraper
+description: Škoda Enyaq market monitor with a web dashboard
+url: https://github.com/rhopp/enyaqscraper
+arch:
+  - aarch64
+image: ghcr.io/rhopp/enyaq-scraper
+ingress: true
+ingress_port: 8000
+panel_title: Enyaq
+panel_icon: mdi:car-electric
+startup: services
+boot: auto
+watchdog: http://[HOST]:[PORT:8000]/health
+options:
+  scrape_time: "04:00"
+  sauto_enabled: true
+  notify_ha: true
+schema:
+  scrape_time: str
+  sauto_enabled: bool
+  notify_ha: bool
