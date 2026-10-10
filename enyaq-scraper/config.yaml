@@ -1,5 +1,5 @@
 name: Enyaq Scraper
-version: "1.0.1"
+version: "1.0.2"
 slug: enyaq_scraper
 description: Škoda Enyaq market monitor with a web dashboard
 url: https://github.com/rhopp/enyaqscraper
@@ -19,7 +19,9 @@ options:
   scrape_time: "04:00"
   sauto_enabled: true
   notify_ha: true
+  openrouter_api_key: ""
 schema:
   scrape_time: str
   sauto_enabled: bool
   notify_ha: bool
+  openrouter_api_key: password
