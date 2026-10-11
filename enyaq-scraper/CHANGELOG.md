@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- New per-listing **Details** page (`/listing/{id}`): shows the raw listings row, extracted attributes, options, provenance, derived metrics, full price history, and the captured source text. Linked from the market cards and compare view.
+
 ## 1.0.3
 
 - Fix: enrichment aborted the whole batch when OpenRouter returned an empty

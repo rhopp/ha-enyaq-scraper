@@ -1,5 +1,5 @@
 name: Enyaq Scraper
-version: "1.0.3"
+version: "1.0.4"
 slug: enyaq_scraper
 description: Škoda Enyaq market monitor with a web dashboard
 url: https://github.com/rhopp/enyaqscraper
