@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.5
+
+- Listing **Details now opens in a popup** (ESC / backdrop / × to close).
+- Market page: **expanded filtering** (category, min/max price, min/max year,
+  min/max mileage, min SoH, min battery, variant, body, drivetrain, exterior
+  trim, design selection, option package, software epoch, heat pump, VAT,
+  battery replaced, and feature checkboxes) and **new sorts** (power, SoH,
+  battery).
+- Fix Bazoš **mileage parsing**: dotted thousands (`48.234 km`), `tkm`/`tis`,
+  sanity bounds, and ignore "dojezd/range" mentions.
+
 ## 1.0.4
 
 - New per-listing **Details** page (`/listing/{id}`): shows the raw listings row, extracted attributes, options, provenance, derived metrics, full price history, and the captured source text. Linked from the market cards and compare view.
