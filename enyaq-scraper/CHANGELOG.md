@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.3
+
+- Fix: enrichment aborted the whole batch when OpenRouter returned an empty
+  response (`content: null`); now such a response skips just that listing, and
+  per-listing failures never abort the run.
+- Faster LLM calls: reasoning disabled (effort=minimal) and output token cap,
+  with a tighter per-call timeout.
+
 ## 1.0.2
 
 - Dashboard: sortable + paginated market list, price-history charts, and a new
