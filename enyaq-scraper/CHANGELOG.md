@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.1
+
+- Multi-vehicle support: monitor **Škoda Enyaq and Tesla Model 3**.
+- New add-on option `enabled_vehicles` (comma-separated keys; default
+  `enyaq,tesla_model3`).
+- Tesla is scraped from Bazoš and Sauto only (never Škoda Plus).
+- Dashboard gains a **Vehicle** filter; branding is now "EV Market Monitor".
+- Delta engine is scoped per vehicle, so a Tesla run can never mark Enyaq
+  listings as removed.
+- Per-vehicle run summary in the persistent notification.
+
 ## 1.0.5
 
 - Listing **Details now opens in a popup** (ESC / backdrop / × to close).

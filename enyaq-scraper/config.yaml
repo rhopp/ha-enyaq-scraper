@@ -1,7 +1,7 @@
 name: Enyaq Scraper
-version: "1.0.5"
+version: "1.1.1"
 slug: enyaq_scraper
-description: Škoda Enyaq market monitor with a web dashboard
+description: EV market monitor (Škoda Enyaq + Tesla Model 3) with a web dashboard
 url: https://github.com/rhopp/enyaqscraper
 arch:
   - aarch64
@@ -19,9 +19,11 @@ options:
   scrape_time: "04:00"
   sauto_enabled: true
   notify_ha: true
+  enabled_vehicles: "enyaq,tesla_model3"
   openrouter_api_key: ""
 schema:
   scrape_time: str
   sauto_enabled: bool
   notify_ha: bool
+  enabled_vehicles: str
   openrouter_api_key: password
