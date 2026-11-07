@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.3
+
+- Second monitored vehicle is **Tesla Model Y** (not Model 3).
+  `enabled_vehicles` now defaults to `enyaq,tesla_modely`.
+
 ## 1.1.2
 
 - Fix Bazoš pagination after the site changed its page size (20 -> 40 items):

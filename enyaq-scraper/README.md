@@ -31,10 +31,10 @@ Assistant persistent notification (bell icon).
 | `scrape_time`      | `04:00`                  | Daily time (HH:MM, 24h) to run the scrape.             |
 | `sauto_enabled`    | `true`                   | Enable the heavier Playwright/Chromium scrape of Sauto.|
 | `notify_ha`        | `true`                   | Send a persistent notification with the run summary.   |
-| `enabled_vehicles` | `enyaq,tesla_model3`     | Comma-separated vehicles to monitor (see below).       |
+| `enabled_vehicles` | `enyaq,tesla_modely`     | Comma-separated vehicles to monitor (see below).       |
 | `openrouter_api_key` | empty                  | Optional LLM enrichment key (Enyaq only for now).      |
 
-Supported vehicle keys: `enyaq` (Škoda Enyaq) and `tesla_model3` (Tesla Model 3).
+Supported vehicle keys: `enyaq` (Škoda Enyaq) and `tesla_modely` (Tesla Model Y).
 Tesla is fetched from Bazoš and Sauto only; Škoda Plus is Enyaq-only.
 
 ## Data
