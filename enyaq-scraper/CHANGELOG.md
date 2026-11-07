@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+- Fix Bazoš pagination after the site changed its page size (20 -> 40 items):
+  derive the `crp` step from the first page so offsets stay page-aligned.
+
 ## 1.1.1
 
 - Multi-vehicle support: monitor **Škoda Enyaq and Tesla Model 3**.

@@ -1,5 +1,5 @@
 name: Enyaq Scraper
-version: "1.1.1"
+version: "1.1.2"
 slug: enyaq_scraper
 description: EV market monitor (Škoda Enyaq + Tesla Model 3) with a web dashboard
 url: https://github.com/rhopp/enyaqscraper
