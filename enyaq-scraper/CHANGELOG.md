@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.0
+
+- New **Reports** tab with a browsable history of periodic market reports.
+- Report generation every `report_interval_days` (default 3) at `report_time`
+  (default 05:30): market changes since the previous report, price drops,
+  cohort medians, and best active offers for Škoda Enyaq and Tesla Model Y in
+  non-overlapping ≤600k / 600–700k / 700k–1M CZK bands.
+- LLM summary compares the active listings and picks the best option per
+  vehicle/band with reasoning; deterministic picks remain if the LLM is
+  unavailable.
+- New add-on options `report_time` and `report_interval_days`.
+- Fix add-on description to say Tesla Model Y (was Model 3).
+
 ## 1.1.3
 
 - Second monitored vehicle is **Tesla Model Y** (not Model 3).
